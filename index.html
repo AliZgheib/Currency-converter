@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <link rel="icon" href="favv.ico" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
+</head>
+
+<body>
+  <div id="wrapper">
+  <div id="header">
+       <a href="/index.html">Currency Converter</a>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Socials</li>
+    </ul>
+ 
+</div>
+<div id="content">
+  <h1>Your #1 Place for Currency Conversion</h1>
+  
+
+<div id="all">
+  
+<input id="input" type="text" placeholder="Please enter something.." style="height:30px;width:296px">
+
+    <select id="from" style="height:35px;width:300px" >
+      <option value="0" selected disabled>From which Currency?</option>
+      <option value="1">US dollar</option>
+      <option value="2">Euro</option>
+      <option value="3">Japanese yen</option>
+     <option value="4">Pound sterling </option>
+     <option value="5">Lebanese Pound</option>
+    
+    </select>
+
+    <select id="to" style="height:35px;width:300px" >
+      <option value="0" selected disabled>To which currency?</option>
+      <option value="1">US dollar</option>
+      <option value="2">Euro</option>
+      <option value="3">Japanese yen</option>
+     <option value="4">Pound sterling </option>
+     <option value="5">Lebanese Pound</option>
+    </select>
+  
+    
+    <button id='button' style="height:35px;width:300px">Convert</button>
+    
+  
+    
+</div>
+<br>
+<p id="p">The Result is:</p>
+  <input id="output"type="text" placeholder="Your result will show up here..">
+</div>
+<div id="tips">
+    <br>
+<p id="first">Click Here to check the Functionalities that are implemented</p>
+
+<br>
+<div id="rest">
+  <br>
+  <p>The Functionalities are: </p>
+  <br>
+  <br>
+<p>Check if no input was given</p><p style='color:red;'> &#10004;</p>
+<br>
+<p>Check if no selection was done</p><p style='color:red;'> &#10004;</p><br>
+<p>Prevent conversion to the same currency </p><p style='color:red;'> &#10004;</p><br>
+</div>
+</div>
+
+</div>
+<div id="footer">
+    <br>
+    <p id="secondp"> <strong>Project By:</strong> Ali Zgheib  <strong>Instructor:</strong>Yasser Karaki</p>
+    </div>
+<script src="script2.js"></script>
+</body>
+</html>

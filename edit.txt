@@ -1,0 +1,106 @@
+temperature
+
+//solution= (input.value-32)*5/9;
+
+//if(a.options[a.selectedIndex].value==2)
+//solution= (input.value*9/5)+32;
+
+/weight
+
+//solution= input.value*1000;
+
+//if(a.options[a.selectedIndex].value==4)
+//solution= input.value/1000;
+//Volume
+
+////////////////////
+
+solution= input.value*1.12;
+
+if(a.options[a.selectedIndex].value==6)
+solution= input.value*0.89;
+
+////////////////////////
+
+solution= input.value*1500;
+
+if(a.options[a.selectedIndex].value==8)
+solution= input.value*0.00066;
+
+
+output.value=solution;
+
+
+
+
+=====
+
+
+more stuff
+
+ <p id="thirdtext">Convert to?</p>
+    <div>
+      <div id="thirdone" style="width:600px;margin:20px auto;">
+      <button class="thirdone">Fahrenheit</button>
+      <button class="thirdone">Celcius</button>
+      <button  class="thirdone">Kelvin</button>
+    </div>
+    <div id="thirdtwo" style="width:600px;margin:20px auto;">
+      <button class="thirdtwo">Kilogram</button>
+      <button class="thirdtwo">Gram</button>
+      <button class="thirdtwo">Milligram</button>
+    </div>
+
+    <div id="thirdthree" style="width:600px;margin:20px auto;">
+      <button class="thirdthree">Kiloliter</button>
+      <button class="secondthree">Liter</button>
+      <button class="thirdthree">Milliliter</button>
+    </div>
+
+    <div id="thirdfour" style="width:600px;margin:20px auto;">
+      <button class="thirdfour">Dollar</button>
+      <button class="thirdfour">Euro</button>
+      <button class="thirdfour">LBP</button>
+    </div>
+    </div>
+    
+
+
+============
+
+
+#thirdtext{
+    font-size:20px;
+    width: 200px;
+    margin:0 auto;
+    display:none;
+}
+.thirdone{
+    display:none;
+    float:left;
+    width: 200px;
+    
+}
+.thirdtwo{
+    display:none;
+    float:left;
+    width: 200px;
+}
+.thirdthree{
+    display:none;
+    float:left;
+    width: 200px;
+}
+.thirdfour{
+    display:none;
+    float:left;
+    width: 200px;
+}
+
+==========================
+
+var thirdone=document.getElementsByClassName('thirdone');
+var thirdtwo=document.getElementsByClassName('thirdtwo');
+var thirdthree=document.getElementsByClassName('thirdthree');
+var thirdfour=document.getElementsByClassName('thirdfour');
+var thirdtext=document.getElementById('thirdtext');
